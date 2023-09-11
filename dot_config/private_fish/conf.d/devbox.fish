@@ -1,0 +1,105 @@
+export AR="ar";
+export AS="as";
+export ASDF_DIR="/home/leo/.asdf";
+export AUTOJUMP_ERROR_PATH="/home/leo/.local/share/autojump/errors.log";
+export AUTOJUMP_SOURCED="1";
+export CC="gcc";
+export CONFIG_SHELL="/nix/store/r4vxljid3iq94jp7qvd639sps0fscwy3-bash-5.2-p15/bin/bash";
+export CXX="g++";
+export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus";
+export DEVBOX_OG_PATH_1b70de2fa7e37a1660dd6dc6b177f7661b881decdbd4c25460c08f22157fc8c4="/home/leo/.nix-profile/bin:/home/leo/.local/bin:/home/leo/.asdf/shims:/home/leo/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin";
+export EDITOR="nvim";
+export HOME="/home/leo";
+export HOST_PATH="/nix/store/abjl6ldn8qn7z7xvxs1rwabkzcwmrv9z-chezmoi-2.38.0/bin:/nix/store/5wspmqhgsfs7dza9gcyrj5yxbyd00q7y-coreutils-9.3/bin:/nix/store/039nii0j16pkzabxi9nm5dkh0z8awaww-findutils-4.9.0/bin:/nix/store/pmkqwxzi27lzdzkh2zpqajks9b3521jz-diffutils-3.10/bin:/nix/store/5ccllrgswk61a44yl7jcxs20jql1y32b-gnused-4.9/bin:/nix/store/m88w8in2zf5dwijxypyba02f0ff260rm-gnugrep-3.11/bin:/nix/store/scv8hzzf0vpxaqj96qjhzdcf04aygga1-gawk-5.2.2/bin:/nix/store/ygjmhqdm8labz14xxscz003srl1p2c94-gnutar-1.35/bin:/nix/store/pm6pfypn61d9n9gy19i01ak8hwc6g688-gzip-1.12/bin:/nix/store/ir3achw4jh3qyyac0vkj8jb46l06psqh-bzip2-1.0.8-bin/bin:/nix/store/k51cq3ap20c69wffjsl8qjs21wy5wlrq-gnumake-4.4.1/bin:/nix/store/r4vxljid3iq94jp7qvd639sps0fscwy3-bash-5.2-p15/bin:/nix/store/l6wb1grmnawfvy6xqp5x29jsq9p5dym8-patch-2.7.6/bin:/nix/store/ikzmh72n5f785gkfm02kzg4cl8d7hzmg-xz-5.4.4-bin/bin:/nix/store/yyrljddc4wqraxs72d8kzcf3filcncky-file-5.45/bin";
+export IN_NIX_SHELL="impure";
+export LANG="en_US";
+export LANGUAGE="en_US:";
+export LAUNCHER_PATH="/usr/local/bin/devbox";
+export LAUNCHER_VERSION="0.2.0";
+export LD="ld";
+export LD_LIBRARY_PATH="/home/leo/.local/share/devbox/global/default/.devbox/nix/profile/default/lib";
+export LIBRARY_PATH="/home/leo/.local/share/devbox/global/default/.devbox/nix/profile/default/lib";
+export LOGNAME="leo";
+export LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:";
+export LUA_PATH="/home/leo/.config/nvim/?.lua";
+export MOTD_SHOWN="pam";
+export NIX_BINTOOLS="/nix/store/cyb4bb44krf4ghw8qasa03sxi2k4g6a4-binutils-wrapper-2.40";
+export NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu="1";
+export NIX_BUILD_CORES="56";
+export NIX_CC="/nix/store/civqmfc14c8x7l59nfiwb3qggr8sghrg-gcc-wrapper-12.3.0";
+export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu="1";
+export NIX_CFLAGS_COMPILE=" -frandom-seed=2kgnmsp5di";
+export NIX_ENFORCE_NO_NATIVE="1";
+export NIX_HARDENING_ENABLE="fortify fortify3 stackprotector pic strictoverflow format relro bindnow";
+export NIX_LDFLAGS="-rpath /nix/store/2kgnmsp5di24m4kz83klqm9r51rz21gq-nix-shell-env/lib ";
+export NIX_PROFILES="/nix/var/nix/profiles/default /home/leo/.nix-profile";
+export NIX_SSL_CERT_FILE="/etc/ssl/certs/ca-certificates.crt";
+export NIX_STORE="/nix/store";
+export NM="nm";
+export OBJCOPY="objcopy";
+export OBJDUMP="objdump";
+export OLDPWD="";
+export OSTYPE="linux-gnu";
+export PATH="/home/leo/.local/share/devbox/global/default/.devbox/virtenv/.wrappers/bin:/home/leo/.local/share/devbox/global/default/.devbox/nix/profile/default/bin:/nix/store/dhg99sq2invv3scrlv6abxsb5pcz8ip6-patchelf-0.15.0/bin:/nix/store/civqmfc14c8x7l59nfiwb3qggr8sghrg-gcc-wrapper-12.3.0/bin:/nix/store/ha21dh86hkl3065bgzfrg7zh6f45lmbf-gcc-12.3.0/bin:/nix/store/qw92z3pwsd74a1cyg07riri1d0gma9w6-glibc-2.37-8-bin/bin:/nix/store/5wspmqhgsfs7dza9gcyrj5yxbyd00q7y-coreutils-9.3/bin:/nix/store/cyb4bb44krf4ghw8qasa03sxi2k4g6a4-binutils-wrapper-2.40/bin:/nix/store/9g6n42payxs0czfaghxhhb1jxc9rx53h-binutils-2.40/bin:/nix/store/039nii0j16pkzabxi9nm5dkh0z8awaww-findutils-4.9.0/bin:/nix/store/pmkqwxzi27lzdzkh2zpqajks9b3521jz-diffutils-3.10/bin:/nix/store/5ccllrgswk61a44yl7jcxs20jql1y32b-gnused-4.9/bin:/nix/store/m88w8in2zf5dwijxypyba02f0ff260rm-gnugrep-3.11/bin:/nix/store/scv8hzzf0vpxaqj96qjhzdcf04aygga1-gawk-5.2.2/bin:/nix/store/ygjmhqdm8labz14xxscz003srl1p2c94-gnutar-1.35/bin:/nix/store/pm6pfypn61d9n9gy19i01ak8hwc6g688-gzip-1.12/bin:/nix/store/ir3achw4jh3qyyac0vkj8jb46l06psqh-bzip2-1.0.8-bin/bin:/nix/store/k51cq3ap20c69wffjsl8qjs21wy5wlrq-gnumake-4.4.1/bin:/nix/store/r4vxljid3iq94jp7qvd639sps0fscwy3-bash-5.2-p15/bin:/nix/store/l6wb1grmnawfvy6xqp5x29jsq9p5dym8-patch-2.7.6/bin:/nix/store/ikzmh72n5f785gkfm02kzg4cl8d7hzmg-xz-5.4.4-bin/bin:/nix/store/yyrljddc4wqraxs72d8kzcf3filcncky-file-5.45/bin:/home/leo/.nix-profile/bin:/home/leo/.local/bin:/home/leo/.asdf/shims:/home/leo/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin";
+export RANLIB="ranlib";
+export READELF="readelf";
+export SIZE="size";
+export SOURCE_DATE_EPOCH="315532800";
+export SSH_CLIENT="10.89.18.116 6915 22";
+export SSH_CONNECTION="10.89.18.116 6915 10.162.2.81 22";
+export SSH_TTY="/dev/pts/0";
+export STARSHIP_SESSION_KEY="2877722379682215";
+export STARSHIP_SHELL="fish";
+export STRINGS="strings";
+export STRIP="strip";
+export TERM="xterm";
+export USER="leo";
+export XDG_DATA_DIRS="/nix/store/dhg99sq2invv3scrlv6abxsb5pcz8ip6-patchelf-0.15.0/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop";
+export XDG_RUNTIME_DIR="/run/user/1000";
+export XDG_SESSION_CLASS="user";
+export XDG_SESSION_ID="1912";
+export XDG_SESSION_TYPE="tty";
+export __DEVBOX_SHELLENV_HASH_1b70de2fa7e37a1660dd6dc6b177f7661b881decdbd4c25460c08f22157fc8c4="25950ba6ab086b1a8751201b6156da9a1d57e81fe1fe6a5ad72853486b3a8d85";
+export __ETC_PROFILE_NIX_SOURCED="1";
+export __structuredAttrs="";
+export aa="bb";
+export buildInputs="/nix/store/abjl6ldn8qn7z7xvxs1rwabkzcwmrv9z-chezmoi-2.38.0";
+export buildPhase="{ echo \"------------------------------------------------------------\";\
+  echo \" WARNING: the existence of this path is not guaranteed.\";\
+  echo \" It is an internal implementation detail for pkgs.mkShell.\";\
+  echo \"------------------------------------------------------------\";\
+  echo;\
+  # Record all build inputs as runtime dependencies\
+  export;\
+} >> \"\$out\"\
+";
+export builder="/nix/store/r4vxljid3iq94jp7qvd639sps0fscwy3-bash-5.2-p15/bin/bash";
+export cmakeFlags="";
+export configureFlags="";
+export depsBuildBuild="";
+export depsBuildBuildPropagated="";
+export depsBuildTarget="";
+export depsBuildTargetPropagated="";
+export depsHostHost="";
+export depsHostHostPropagated="";
+export depsTargetTarget="";
+export depsTargetTargetPropagated="";
+export doCheck="";
+export doInstallCheck="";
+export dontAddDisableDepTrack="1";
+export mesonFlags="";
+export name="nix-shell-env";
+export nativeBuildInputs="";
+export out="/nix/store/2kgnmsp5di24m4kz83klqm9r51rz21gq-nix-shell-env";
+export outputs="out";
+export patches="";
+export phases="buildPhase";
+export preferLocalBuild="1";
+export propagatedBuildInputs="";
+export propagatedNativeBuildInputs="";
+export shell="/nix/store/r4vxljid3iq94jp7qvd639sps0fscwy3-bash-5.2-p15/bin/bash";
+export shellHook="";
+export stdenv="/nix/store/1qxkj91n172qnypdrqdybh4p203nax7g-stdenv-linux";
+export strictDeps="";
+export system="x86_64-linux";
+#hash -r
