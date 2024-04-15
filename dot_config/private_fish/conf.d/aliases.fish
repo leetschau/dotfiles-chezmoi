@@ -2,6 +2,7 @@ if not status is-interactive
   exit 0
 end
 
+abbr che chezmoi
 abbr ddp dotdrop
 
 abbr ga git add -A
@@ -15,6 +16,7 @@ abbr gph git push
 abbr gpl git pull
 
 abbr l ls -la
+abbr lt ls -lt
 
 abbr op rifle
 abbr ra ranger
@@ -29,4 +31,4 @@ abbr tl tmux ls
 abbr ta tmux -u attach -t
 abbr tn tmux -u new -A -s
 
-alias vi "python3 ~/.config/nvim/vi.py"
+abbr vi nvim
