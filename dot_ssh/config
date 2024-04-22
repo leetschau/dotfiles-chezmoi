@@ -1,0 +1,23 @@
+Host deep
+  Hostname 10.160.43.66
+  User leo
+
+Host la1
+  Hostname 10.160.43.81
+  User leo
+
+Host la2
+  Hostname 10.160.43.82
+  User leo
+
+Host la3
+  Hostname 10.160.43.83
+  User leo
+
+Host h218
+  Hostname 10.185.218.2
+  User leo
+
+Host h42
+  Hostname 10.185.219.42
+  User leo
