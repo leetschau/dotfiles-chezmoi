@@ -1,0 +1,15 @@
+[W0]
+keywords=la1
+command=cmd
+param=/c "ssh la1"
+
+[W1]
+keywords=la2
+command=cmd
+param=/c "ssh la2"
+
+[W2]
+keywords=la3
+command=cmd
+param=/c "ssh la3"
+
