@@ -1,15 +1,342 @@
 [W0]
-keywords=la1
-command=cmd
-param=/c "ssh la1"
+keywords=addremove
+command=control.exe
+comment=Add/remove programs
+param=appwiz.cpl
 
 [W1]
-keywords=la2
-command=cmd
-param=/c "ssh la2"
+keywords=admin
+command=control.exe
+comment=Administrative tools
+param=admintools
 
 [W2]
+keywords=alarm
+command=$ALARM$
+comment=A simple alarm
+
+[W3]
+keywords=apps
+command=$APPS$
+comment=List applications
+
+[W4]
+keywords=clipboard
+command=$CLIPBOARD$
+comment=View text from clipboard
+one=1
+
+[W5]
+keywords=control
+command=control.exe
+comment=Opens the control panel
+
+[W6]
+keywords=define
+command=http://dictionary.reference.com/browse/$U$
+comment=Online dictionary
+
+[W7]
+keywords=desktop
+command=control.exe
+comment=Display background
+param=desk.cpl ,0
+
+[W8]
+keywords=la1
+command=cmd
+open=2
+param=/c "ssh la1"
+
+[W9]
+keywords=la2
+command=cmd
+open=2
+param=/c "ssh la2"
+
+[W10]
 keywords=la3
 command=cmd
+open=2
 param=/c "ssh la3"
+
+[W11]
+keywords=devices
+command=devmgmt.msc
+comment=Device manager
+
+[W12]
+keywords=display
+command=control.exe
+comment=Display settings
+param=desk.cpl ,3
+
+[W13]
+keywords=email
+command=mailto:$P$
+comment=Send email
+
+[W14]
+keywords=files
+command="D:\apps\Q-Dir\start.qdr"
+
+[W15]
+keywords=find
+command=search-ms:query=$p$
+comment=Windows instant search (if available)
+
+[W16]
+keywords=firewall
+command=control.exe
+comment=Windows firewall config
+param=firewall.cpl
+
+[W17]
+keywords=google
+command=http://www.google.com/search?hl=en&q=$U$
+comment=Google search
+
+[W18]
+keywords=hood
+command=explorer.exe
+comment=My network places (Network Neighborhood)
+param=::{208D2C60-3AEA-1069-A2D7-08002B30309D}
+
+[W19]
+keywords=ie
+command=IEXPLORE.EXE
+comment=Open Internet Explorer
+param=$P$
+
+[W20]
+keywords=ip
+command=$SHOWIP$
+comment=Get machine IP address (list if more)
+
+[W21]
+keywords=ipconfig
+command=cmd.exe
+comment=IPconfig
+param=/K ipconfig $P$
+
+[W22]
+keywords=listgroups
+command=$GROUPS$
+comment=List keyword groups
+
+[W23]
+keywords=mail
+command=msimn.exe
+comment=Outlook
+
+[W24]
+keywords=media
+command=$MEDIA$
+comment=Default media player
+
+[W25]
+keywords=movie
+command=http://www.imdb.com/find?s=all&q=$U$
+comment=IMDb search for movies
+
+[W26]
+keywords=mute
+command=$MUTE$
+comment=Mute and unmute windows master volume
+
+[W27]
+keywords=mycomp
+command=explorer.exe
+comment=Opens my computer
+param=::{20D04FE0-3AEA-1069-A2D8-08002B30309D}
+
+[W28]
+keywords=mydoc
+command=explorer.exe
+comment=Opens my documents
+param=::{450D8FBA-AD25-11D0-98A8-0800361B1103}
+
+[W29]
+keywords=netstat
+command=cmd.exe
+comment=Netstat
+param=/K netstat $P$
+
+[W30]
+keywords=network
+command=control.exe
+comment=Network connections
+param=ncpa.cpl
+
+[W31]
+keywords=next
+command=$NEXT$
+comment=Next media
+
+[W32]
+keywords=notes
+command=$NOTES$
+comment=Notes, supports parameter text
+param=$P$
+
+[W33]
+keywords=ping
+command=cmd.exe
+comment=Ping
+param=/K ping $P$
+
+[W34]
+keywords=play
+command=$PLAY$
+comment=Play media
+
+[W35]
+keywords=previous
+command=$PREV$
+comment=Previous media
+
+[W36]
+keywords=printers
+command=control.exe
+comment=Printers and fax
+param=printers.cpl
+
+[W37]
+keywords=recycle
+command=explorer.exe
+comment=Recycle bin
+param=::{645FF040-5081-101B-9F08-00AA002F954E}
+
+[W38]
+keywords=remote
+command=C:\WINDOWS\system32\mstsc.exe
+path=%HOMEDRIVE%%HOMEPATH%
+comment=Remote Desktop Connection
+
+[W39]
+keywords=recent
+command=$RECENT$
+comment=List recent documents
+
+[W40]
+keywords=refreshindex
+command=$REFRESHINDEX$
+comment=Will refresh the index now
+
+[W41]
+keywords=screensaver
+command=$SCREENSAVER$
+comment=Start screensaver
+
+[W42]
+keywords=search
+command=$SEARCH$
+comment=Open windows search
+
+[W43]
+keywords=services
+command=services.msc
+comment=Windows services
+
+[W44]
+keywords=stop
+command=$STOP$
+comment=Stop media
+
+[W45]
+keywords=stopwatch
+command=$STOPWATCH$
+comment=A simple stopwatch
+
+[W46]
+keywords=system
+command=control.exe
+comment=System (same as properties on my computer)
+param=sysdm.cpl
+
+[W47]
+keywords=task
+command=taskmgr.exe
+comment=Opens the taskmanager
+
+[W48]
+keywords=textclean
+command=$TEXTCLEAN$
+comment=Will strip formatting of current clipboard text
+
+[W49]
+keywords=time
+command=$TIME$
+comment=Get time and date
+
+[W50]
+keywords=timer
+command=$TIMER$
+comment=A simple timer
+
+[W51]
+keywords=tracert
+command=cmd.exe
+comment=Trace route
+param=/K tracert $P$
+
+[W52]
+keywords=wiki
+command=http://en.wikipedia.org/wiki/Special:Search?search=$U$&go=Go
+comment=Wikipedia search
+
+[W53]
+keywords=youtube
+command=http://www.youtube.com/results?search_query=$U$
+comment=YouTube search
+
+[W54]
+keywords=?emptyrecyclebin
+command=$EMPTYRECYCLEBIN$
+comment=Empty recycle bin
+
+[W55]
+keywords=?hibernate
+command=$HIBERNATE$
+comment=Sets computer in hibernate mode
+
+[W56]
+keywords=?lock
+command=$LOCK$
+comment=Lock computer or switch user
+
+[W57]
+keywords=?logoff
+command=$LOGOFF$
+comment=Logoff current user
+
+[W58]
+keywords=?monitor
+command=$MONITOR$
+comment=Turns off monitor
+
+[W59]
+keywords=?restart
+command=$RESTART$
+comment=Restart windows
+
+[W60]
+keywords=?saveclipboard
+command=$SAVECLIPBOARD$
+comment=Save clipboard to a file
+
+[W61]
+keywords=?shutdown
+command=$SHUTDOWN$
+comment=Shutdown windows
+
+[W62]
+keywords=?sleep
+command=$STANDBY$
+comment=Send computer to sleep mode
+
+[W63]
+keywords=?standby
+command=$STANDBY$
+comment=Sets computer in standby mode
 

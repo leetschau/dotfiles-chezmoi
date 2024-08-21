@@ -1,0 +1,29 @@
+[manager]
+
+prepend_keymap = [
+  { on = [ "g", "a" ], run = "cd d:/apps", desc = "Dir: apps" },
+  { on = [ "g", "b" ], run = "cd d:/docs/Books", desc = "Dir: Book" },
+  { on = [ "g", "c" ], run = "shell --confirm 'wt nvim C:/Users/cloud/AppData/Roaming/yazi/config/keymap.toml'", desc = "Edit Yazi configurations" },
+  { on = [ "g", "D" ], run = "cd d:/docs", desc = "Dir: docs" },
+  { on = [ "g", "e" ], run = "shell --confirm 'wt nvim %1'", desc = "Edit with neovim" },
+  { on = [ "g", "j" ], run = "cd d:/docs/jobinterviews", desc = "Dir: jobinterviews" },
+  { on = [ "g", "o" ], run = "shell --confirm 'explorer %1'", desc = "Open with default app" },
+  { on = [ "g", "P" ], run = "cd d:/docs/Patents", desc = "Dir: Patents" },
+  { on = [ "g", "p" ], run = "cd d:/docs/papers", desc = "Dir: papers" },
+  { on = [ "g", "s" ], run = "shell --confirm 'wt pwsh'", desc = "Open Powershell here" },
+  { on = [ "g", "x" ], run = "shell --confirm 'explorer .'", desc = "Open Explorer here" },
+  { on = [ "g", "2" ], run = "cd d:/docs/Patents/", desc = "Dir: Patents" },
+  { on = [ "g", "3" ], run = "cd d:/docs/Patents/AutoRange", desc = "Patent dir: AutoRange" },
+  { on = [ "g", "4" ], run = "cd d:/docs/papers", desc = "Dir: Papers" },
+  { on = [ "g", "5" ], run = "cd d:/docs/ETA", desc = "Dir: ETA" },
+  { on = [ "g", "6" ], run = "plugin test --sync --args='hello world'", desc = "Test hello world plugin" },
+  { on = [ "g", "7" ], run = "cd d:/docs/OADoc", desc = "Dir: OADoc" },
+  { on = [ "g", "8" ], run = "cd d:/docs/syncthngHome/withMobile", desc = "Dir: sync/mobile" },
+]
+
+
+[select]
+
+keymap = [
+  { on = [ "E" ], run = "plugin test --sync --args='hello world'", desc = "Test hello world plugin" },
+]
