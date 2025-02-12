@@ -1,0 +1,12 @@
+theme = "dark_plus"
+
+[editor]
+true-color = true
+mouse = false
+line-number = "relative"
+
+[keys.normal]
+";" = "command_mode"
+
+[editor.whitespace]
+render = "none"

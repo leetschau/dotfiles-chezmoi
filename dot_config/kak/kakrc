@@ -1,0 +1,1 @@
+set -add global ui_options terminal_enable_mouse=0
