@@ -34,11 +34,12 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-exec copyq
-exec ibus-daemon
-exec flameshot
-exec goldendict-ng
-exec "setxkbmap -option caps:swapescape -option ctrl:swap_lwin_lctl -option ctrl:swap_rwin_rctl"
+exec --no-startup-id copyq
+exec --no-startup-id ibus-daemon
+exec --no-startup-id flameshot
+exec --no-startup-id goldendict-ng
+exec --no-startup-id "setxkbmap -option caps:swapescape -option ctrl:swap_lwin_lctl -option ctrl:swap_rwin_rctl"
+exec --no-startup-id nitrogen --set-zoom-fill --random ~/Pictures/wallpapers
 
 bindsym $mod+Control+l exec i3lock
 bindsym $mod+Insert exec systemctl suspend
