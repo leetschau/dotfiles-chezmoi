@@ -1,0 +1,22 @@
+export PATH=~/.local/bin/:~/.config/emacs/bin:$PATH
+
+eval "$(starship init bash)"
+source /usr/share/autojump/autojump.bash
+source ~/.local/share/blesh/ble.sh
+eval "$(~/.local/bin/mise activate bash)"
+eval "$(direnv hook bash)"
+
+alias sf='distrobox enter arch -- fish'
+alias ed='emacs --daemon'
+alias ec='emacsclient -c'
+alias ll='ls -l'
+alias lt='ls -lt'
+alias le=less
+alias ga='git add -A'
+alias gs='git status'
+alias gd='git diff'
+alias gl='git log --stat --decorate'
+alias glg='git log --all --decorate --oneline --graph'
+alias gco='git checkout'
+alias gph='git push'
+alias gpl='git pull'
