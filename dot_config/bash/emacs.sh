@@ -2,5 +2,6 @@
 
 export PATH=~/.config/emacs/bin:$PATH
 
-alias ed='emacs --daemon'
 alias ec='emacsclient -c'
+alias ed='emacs --daemon'
+alias et='emacsclient -t'
