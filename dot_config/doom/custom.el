@@ -7,8 +7,7 @@
  '(doom-theme 'manoj-dark)
  '(pyim-cloudim 'google)
  '(pyim-default-scheme 'xiaohe-shuangpin)
- '(url-proxy-services '(("http" . "10.160.43.82:7897")))
- '(vterm-shell "/bin/fish"))
+ '(url-proxy-services '(("http" . "10.160.43.82:7897"))))
 (custom-set-faces)
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

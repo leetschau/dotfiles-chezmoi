@@ -93,3 +93,12 @@
     (save-window-excursion
       (hy-shell-eval-current-form))))
 
+(setq geiser-active-implementations '(chicken))
+
+(after! evil-snipe
+ (setq evil-snipe-scope 'buffer)
+ (evil-define-key '(normal motion) evil-snipe-local-mode-map
+   "s" nil
+   "S" nil
+   "f" 'evil-snipe-s
+   "F" 'evil-snipe-S))
