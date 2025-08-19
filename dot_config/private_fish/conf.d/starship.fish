@@ -1,3 +1,3 @@
 if status is-interactive
-  starship init fish | source
+  ~/.local/bin/starship init fish | source
 end
