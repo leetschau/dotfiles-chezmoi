@@ -1,0 +1,30 @@
+# see https://github.com/sigoden/aichat/blob/main/config.example.yaml
+
+model: hs
+# rag_embedding_model: ollama:mxbai-embed-large
+
+clients:
+- type: openai-compatible
+  name: ollama
+  api_base: http://10.160.43.66:11432/v1
+  api_key: null
+  models:
+    - name: gemma
+    - name: deepseek-coder
+    - name: mxbai-embed-large
+      type: embedding
+
+- type: openai-compatible
+  name: hs
+  api_base: http://10.193.3.205:3000/v1
+  api_key: sk-Efs...7cCb
+  models:
+    - name: Moonshot-Kimi-K2-Instruct
+    - name: qwen-plus-latest
+    - name: qwen-max-latest
+    - name: qwen-turbo-2025-07-15
+    - name: qwen-coder-plus
+    - name: deepseek-v3
+    - name: deepseek-r1-0528
+    - name: glm-4.5
+
