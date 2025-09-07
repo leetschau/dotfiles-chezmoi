@@ -158,6 +158,12 @@ keybinds clear-defaults=true {
         bind "Alt l" { MoveFocusOrTab "right"; }
         bind "Alt n" { NewPane; }
         bind "Alt o" { MoveTab "right"; }
+        bind "Alt q" { GoToTab 1; SwitchToMode "locked"; }
+        bind "Alt a" { GoToTab 2; SwitchToMode "locked"; }
+        bind "Alt z" { GoToTab 3; SwitchToMode "locked"; }
+        bind "Alt x" { GoToTab 4; SwitchToMode "locked"; }
+        bind "Alt v" { GoToTab 5; SwitchToMode "locked"; }
+        bind "Alt m" { GoToTab 6; SwitchToMode "locked"; }
     }
     shared_except "locked" "renametab" "renamepane" {
         bind "Alt s" { SwitchToMode "locked"; }
