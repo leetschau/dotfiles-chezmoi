@@ -1,4 +1,4 @@
-# My Configuratoins based on Chezmoi
+# My Dotfiles Managed by Chezmoi
 
 ## Provision a New Host
 
