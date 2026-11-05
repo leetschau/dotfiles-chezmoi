@@ -1,0 +1,9 @@
+{
+    "last_update":  "2026-11-05T15:32:23.1561137+08:00",
+    "scoop_branch":  "master",
+    "scoop_repo":  "https://github.com/ScoopInstaller/Scoop",
+    "global_path":  "d:\\apps\\scoop\\global",
+    "cache_path":  "d:\\apps\\scoop\\cache",
+    "root_path":  "d:\\apps\\scoop",
+    "proxy":  "localhost:7897"
+}

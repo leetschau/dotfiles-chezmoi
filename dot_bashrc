@@ -1,0 +1,6 @@
+export PATH="/d/apps/scoop/shims:$PATH"
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
